@@ -11,5 +11,5 @@ users (collection)
     - deviceIdToken (document)
         - lang (field) : tr/en
 ```
-You must collect and store device token IDs  (I used Firestore for storing device IDs) and FCM
+You must collect and store device token IDs  (I used Firestore for storing device IDs)
 Retrieve FCM token of the device [Read here](https://firebase.google.com/docs/cloud-messaging/android/client?hl=en#retrieve-the-current-registration-token)
