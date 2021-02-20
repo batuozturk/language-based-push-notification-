@@ -91,7 +91,7 @@ public class LanguageBasedFCMWithFirestore {
                 .build();
 
         BatchResponse response2 = FirebaseMessaging.getInstance().sendMulticast(message2);
-        // Response is a message ID string.
+        
         System.out.println("Bildirim gönderildi: " + response2.getSuccessCount() +" " +response2.getFailureCount());
 
 
