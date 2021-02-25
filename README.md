@@ -8,8 +8,9 @@
 I used this data representation on Firestore
 ```sh
 users (collection)
-    - deviceIdToken (document)
-        - lang (field) : tr/en
+    - random string (document)
+        - lang (field)
+        - device token id (field)
 ```
 You must collect and store device token IDs  (I used Firestore for storing device IDs)
 
